@@ -1,116 +1,128 @@
 {
-  "starters": {
-    "blank": {
-      "name": "Blank Starter",
-      "description": "Forge blank starter template",
-      "latest": "1.0.4",
-      "versions": {
-        "1.0.0": {
-          "url": "blank/1.0.0",
-          "integrity": "0a9798e5977a70d04fa979728d1d75f8536e8e6904fd550cb5864764905e6074",
-          "kernel": "latest",
-          "modules": {
-            "forge-package-manager": "3.3.2"
-          },
-          "post_install": []
+    "starters": {
+        "blank": {
+            "name": "Blank Starter",
+            "description": "Forge blank starter template",
+            "latest": "1.0.4",
+            "versions": {
+                "1.0.0": {
+                    "url": "blank/1.0.0",
+                    "integrity": "0a9798e5977a70d04fa979728d1d75f8536e8e6904fd550cb5864764905e6074",
+                    "kernel": "latest",
+                    "modules": {
+                        "forge-package-manager": "3.3.2"
+                    },
+                    "post_install": []
+                },
+                "1.0.1": {
+                    "url": "blank/1.0.1",
+                    "integrity": "35f0c55a5edd1fb3dd902d814355bf2fd79812fa3a692d50a4422d3b17b675b5",
+                    "kernel": "latest",
+                    "modules": {
+                        "forge-package-manager": "3.3.2"
+                    },
+                    "post_install": []
+                },
+                "1.0.2": {
+                    "url": "blank/1.0.2",
+                    "integrity": "5bcb78f89f9f507170234ea4bdc3d2568b0424f2657e57955e8fe916ceb50375",
+                    "kernel": "latest",
+                    "modules": {
+                        "forge-package-manager": "3.3.2"
+                    },
+                    "post_install": []
+                },
+                "1.0.3": {
+                    "url": "blank/1.0.3",
+                    "integrity": "35f0c55a5edd1fb3dd902d814355bf2fd79812fa3a692d50a4422d3b17b675b5",
+                    "kernel": "latest",
+                    "modules": {
+                        "forge-package-manager": "3.3.2"
+                    },
+                    "post_install": []
+                },
+                "1.0.4": {
+                    "url": "blank/1.0.4",
+                    "integrity": "c807c628326ac8b13bdbf6674f34580bc51439e7ccf434dfd91fd12cae8b6cbb",
+                    "kernel": "latest",
+                    "modules": {
+                        "forge-package-manager": "3.3.3"
+                    },
+                    "post_install": [
+                        "php forge.php cache:flush",
+                        "php forge.php cache:warm"
+                    ]
+                }
+            }
         },
-        "1.0.1": {
-          "url": "blank/1.0.1",
-          "integrity": "35f0c55a5edd1fb3dd902d814355bf2fd79812fa3a692d50a4422d3b17b675b5",
-          "kernel": "latest",
-          "modules": {
-            "forge-package-manager": "3.3.2"
-          },
-          "post_install": []
-        },
-        "1.0.2": {
-          "url": "blank/1.0.2",
-          "integrity": "5bcb78f89f9f507170234ea4bdc3d2568b0424f2657e57955e8fe916ceb50375",
-          "kernel": "latest",
-          "modules": {
-            "forge-package-manager": "3.3.2"
-          },
-          "post_install": []
-        },
-        "1.0.3": {
-          "url": "blank/1.0.3",
-          "integrity": "35f0c55a5edd1fb3dd902d814355bf2fd79812fa3a692d50a4422d3b17b675b5",
-          "kernel": "latest",
-          "modules": {
-            "forge-package-manager": "3.3.2"
-          },
-          "post_install": []
-        },
-        "1.0.4": {
-          "url": "blank/1.0.4",
-          "integrity": "c807c628326ac8b13bdbf6674f34580bc51439e7ccf434dfd91fd12cae8b6cbb",
-          "kernel": "latest",
-          "modules": {
-            "forge-package-manager": "3.3.3"
-          },
-          "post_install": [
-            "php forge.php cache:flush",
-            "php forge.php cache:warm"
-          ]
+        "minimal": {
+            "name": "Minimal Starter",
+            "description": "Forge Mininal Starter template",
+            "latest": "1.0.5",
+            "versions": {
+                "1.0.0": {
+                    "url": "minimal/1.0.0",
+                    "integrity": "9a061d45015d2c4cf8ed23269e6025a075e5d2e53af171964206ac61d002c100",
+                    "kernel": "latest",
+                    "modules": {
+                        "forge-package-manager": "3.3.2",
+                        "forge-welcome": "1.2.2"
+                    },
+                    "post_install": []
+                },
+                "1.0.1": {
+                    "url": "minimal/1.0.1",
+                    "integrity": "c29d16c7a9f28acfb5f8601ef391498f730c2c7788b806941d6eec1488fffaad",
+                    "kernel": "latest",
+                    "modules": {
+                        "forge-package-manager": "3.3.2",
+                        "forge-welcome": "1.2.2"
+                    },
+                    "post_install": []
+                },
+                "1.0.2": {
+                    "url": "minimal/1.0.2",
+                    "integrity": "53b57de1d1af9c4047e30f0af4b84c68c1457ef14568334d3f57d0c10496dfd3",
+                    "kernel": "latest",
+                    "modules": {
+                        "forge-package-manager": "3.3.2",
+                        "forge-welcome": "1.2.2"
+                    },
+                    "post_install": []
+                },
+                "1.0.3": {
+                    "url": "minimal/1.0.3",
+                    "integrity": "c29d16c7a9f28acfb5f8601ef391498f730c2c7788b806941d6eec1488fffaad",
+                    "kernel": "latest",
+                    "modules": {
+                        "forge-package-manager": "3.3.2",
+                        "forge-welcome": "1.2.2"
+                    },
+                    "post_install": []
+                },
+                "1.0.4": {
+                    "url": "minimal/1.0.4",
+                    "integrity": "91b12faef47c5a9c38f56b36e0c17e67ce713cca1aa1fe452c7a40363993b2a9",
+                    "kernel": "latest",
+                    "modules": {
+                        "forge-package-manager": "3.3.3",
+                        "forge-welcome": "1.2.2"
+                    },
+                    "post_install": []
+                },
+                "1.0.5": {
+                    "url": "minimal/1.0.5",
+                    "integrity": "4376871db4daa7c14cdaf189d0026374959e55a250f9033fc1189e461d4d8bb9",
+                    "kernel": "latest",
+                    "modules": {
+                        "forge-package-manager": "3.3.5",
+                        "forge-router": "1.0.1",
+                        "forge-view": "0.1.0",
+                        "forge-welcome": "1.2.3"
+                    },
+                    "post_install": []
+                }
+            }
         }
-      }
-    },
-    "minimal": {
-      "name": "Minimal Starter",
-      "description": "Forge Mininal Starter template",
-      "latest": "1.0.4",
-      "versions": {
-        "1.0.0": {
-          "url": "minimal/1.0.0",
-          "integrity": "9a061d45015d2c4cf8ed23269e6025a075e5d2e53af171964206ac61d002c100",
-          "kernel": "latest",
-          "modules": {
-            "forge-package-manager": "3.3.2",
-            "forge-welcome": "1.2.2"
-          },
-          "post_install": []
-        },
-        "1.0.1": {
-          "url": "minimal/1.0.1",
-          "integrity": "c29d16c7a9f28acfb5f8601ef391498f730c2c7788b806941d6eec1488fffaad",
-          "kernel": "latest",
-          "modules": {
-            "forge-package-manager": "3.3.2",
-            "forge-welcome": "1.2.2"
-          },
-          "post_install": []
-        },
-        "1.0.2": {
-          "url": "minimal/1.0.2",
-          "integrity": "53b57de1d1af9c4047e30f0af4b84c68c1457ef14568334d3f57d0c10496dfd3",
-          "kernel": "latest",
-          "modules": {
-            "forge-package-manager": "3.3.2",
-            "forge-welcome": "1.2.2"
-          },
-          "post_install": []
-        },
-        "1.0.3": {
-          "url": "minimal/1.0.3",
-          "integrity": "c29d16c7a9f28acfb5f8601ef391498f730c2c7788b806941d6eec1488fffaad",
-          "kernel": "latest",
-          "modules": {
-            "forge-package-manager": "3.3.2",
-            "forge-welcome": "1.2.2"
-          },
-          "post_install": []
-        },
-        "1.0.4": {
-          "url": "minimal/1.0.4",
-          "integrity": "91b12faef47c5a9c38f56b36e0c17e67ce713cca1aa1fe452c7a40363993b2a9",
-          "kernel": "latest",
-          "modules": {
-            "forge-package-manager": "3.3.3",
-            "forge-welcome": "1.2.2"
-          },
-          "post_install": []
-        }
-      }
     }
-  }
 }
