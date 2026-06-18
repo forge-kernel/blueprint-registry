@@ -106,7 +106,7 @@
         "minimal": {
             "name": "Minimal Starter",
             "description": "Forge Mininal Starter template",
-            "latest": "1.0.9",
+            "latest": "1.0.10",
             "versions": {
                 "1.0.0": {
                     "url": "minimal/1.0.0",
@@ -213,6 +213,18 @@
                     "modules": {
                         "forge-package-manager": "3.3.7",
                         "forge-router": "1.0.2",
+                        "forge-view": "0.1.1",
+                        "forge-welcome": "1.2.3"
+                    },
+                    "post_install": []
+                },
+                "1.0.10": {
+                    "url": "minimal/1.0.10",
+                    "integrity": "1b261fd1670b10e75ef4e57da3df7d3e47aedc762b40a534417dd39c4ee72003",
+                    "kernel": "latest",
+                    "modules": {
+                        "forge-package-manager": "3.3.7",
+                        "forge-router": "1.0.3",
                         "forge-view": "0.1.1",
                         "forge-welcome": "1.2.3"
                     },
